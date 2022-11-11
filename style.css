@@ -8,8 +8,12 @@ body {
     right: 3%;
     top: 7px;
     height: 60vh;
-    width: 155vh;
+    width: 80%;
     text-align: center;
+    background-color: #edf5e1;
+    border-radius: 20px;
+    margin-top: 8%;
+
 }
 
 .block1 {
@@ -72,13 +76,6 @@ body {
     color: #05386b;
 }
 
-#cards {
-    background-color: #edf5e1;
-    border-radius: 20px;
-    margin-top: 120px;
-
-}
-
 .ingredient {
     width: 90px;
     transition: right 0.3s;
@@ -116,7 +113,7 @@ body {
 #Recipe {
     position: fixed;
     display: none;
-    width: 75vh;
+    width: 40%;
     height: 75vh;
     background-color: #edf5e1;
     z-index: 2;
