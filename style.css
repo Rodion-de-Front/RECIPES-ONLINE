@@ -1,0 +1,185 @@
+body {
+    background-color: #5cdb95;
+}
+
+#cards {
+    position: relative;
+    float: right;
+    right: 3%;
+    top: 7px;
+    height: 60vh;
+    width: 155vh;
+    text-align: center;
+}
+
+.block1 {
+    display: inline-block;
+}
+
+.althabet {
+    display: block;
+    width: 33vh;
+}
+
+.name {
+    display: inline-block;
+    margin-left: 22%;
+    font-family: Snell Roundhand, cursive;
+    color: #05386b;
+
+}
+
+.btn {
+    margin: 7px;
+    border-radius: 12px;
+    height: 35px;
+    width: 35px;
+    color: #edf5e1;
+    background-color: #05386b;
+    border: 1px solid #2f9b41;
+    transition: 0.4s;
+    font-size: 15px;
+}
+
+.althabet12 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 7px;
+}
+
+.althabet8 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 7px;
+}
+
+.althabet6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 7px;
+}
+
+.btn:hover {
+    background-color: #379683;
+}
+
+.text {
+    margin-top: 18%;
+    font-size: 30px;
+    color: #05386b;
+}
+
+#cards {
+    background-color: #edf5e1;
+    border-radius: 20px;
+    margin-top: 120px;
+
+}
+
+.ingredient {
+    width: 90px;
+    transition: right 0.3s;
+    opacity: 0;
+    position: relative;
+    right: -200px;
+    bottom: 40px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: Arial;
+    margin-bottom: 0;
+}
+
+.btn_ingredient {
+    border-radius: 5px;
+    background-color: #5cdb95;
+    opacity: 0.9;
+    border: 2px solid #edf5e1;
+    color: #edf5e1;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.card:hover .ingredient {
+    right: -170px;
+    opacity: 1;
+}
+
+
+.card h3 {
+    bottom: 15px;
+    position: relative;
+}
+
+#Recipe {
+    position: fixed;
+    display: none;
+    width: 75vh;
+    height: 75vh;
+    background-color: #edf5e1;
+    z-index: 2;
+    margin-left: 33%;
+    margin-top: 7%;
+    border-radius: 20px;
+}
+
+#curtain {
+
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    display: none;  
+    width: 100%;    
+    position: absolute;
+}
+body {
+    margin: 0;
+}
+
+.closeModal {
+position: absolute;
+top: 30px;
+right: 20px;
+width: 24px;
+height: 24px;
+opacity: 0.2;
+cursor: pointer;
+transition: opacity ease 0.5s;
+}
+
+.closeModal:hover {
+    opacity: 1;
+}
+
+.closeModal::before,
+.closeModal::after {
+content: '';
+position: absolute;
+top: 10px;
+display: block;
+width: 24px;
+height: 3px;
+background: #000;
+}
+
+.closeModal::before {
+transform: rotate(45deg);
+}
+
+.closeModal::after {
+transform: rotate(-45deg);
+}
+
+#RecipeData {
+text-align: center;
+font-family: 'Franklin Gothic Medium';
+margin-top: 10%;
+
+}
+
+.RecipeName {
+margin-top: 10%;
+text-align: center;
+font-family: 'Franklin Gothic Medium';
+}
